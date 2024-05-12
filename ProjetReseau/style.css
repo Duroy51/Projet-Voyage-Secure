@@ -1,0 +1,282 @@
+* {
+  margin: 0;
+}
+
+body {
+  font-family: 'Manrope', sans-serif;
+  font-size: 1em;
+  background-color: #1f2039;
+}
+
+footer {
+
+  padding-left: 5em;
+  font-size: 0.9em;
+  padding-right: 0em;
+  border-top: 0.1em solid  rgba(204, 204, 204, 0.5);
+  background-color: #a5b4fc;
+  padding-bottom: 0em;
+}
+
+
+a {
+  color: #242424;
+  text-decoration: none;
+}
+
+em {
+  color: #a5b4fc;
+  font-style: normal;
+}
+
+h1 {
+  font-size: 3.5em;
+  color: #a5b4fc;
+  font-family: 'Montserrat', sans-serif;
+}
+
+h2 {
+  color: #f9f8ff;
+}
+
+p,
+li {
+  font-size: 1.1em;
+  color: #f9f8ff;
+}
+
+header,
+footer {
+  background-color: rgb(5, 205, 255);
+  padding: 20px 50px;
+}
+
+.cta {
+  background: linear-gradient(#8e86b5, #acaeed);
+  color: white;
+  border-radius: 50px;
+  padding: 20px 30px;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+.cta:hover {
+  background: linear-gradient(#696484, #8788ba);
+  text-decoration: none;
+}
+
+.lien-icone:hover {
+  opacity: 0.5;
+}
+
+.logo-entreprise{
+  width: 4cm;
+  size: 1cm;
+  height: auto;
+}
+
+.carre-contenu {
+  border-right: 1px solid #8e86b5;
+  border-bottom: 1px solid #8e86b5;
+  padding: 50px;
+}
+
+.carre-contenu h2 {
+  margin-top: 30px;
+}
+
+.carre-contenu ul {
+  margin-top: 30px;
+}
+
+section {
+  padding: 80px;
+}
+
+.a-propos-main {
+  width: 50%;
+  margin: auto;
+}
+
+nav {
+  display: inline-flex;
+}
+
+
+.logo-entreprise{
+  width: 1.5cm;
+  height: auto;
+  padding-left: 2em;
+  padding-right: 1em;
+  padding-top: 0.5em;
+  border-radius: 50% 50% 51% 49% / 51% 52% 48% 49% ;
+  
+}
+
+
+* {
+  margin: 0;
+}
+
+body {
+  font-family: 'Manrope', sans-serif;
+  font-size: 1.1em;
+  
+  text-align: justify;
+}
+
+main {
+  padding-left: 5em;
+  padding-right: 5em;
+  padding-bottom: 5em;
+}
+
+footer {
+
+  padding-left: 5em;
+  font-size: 0.9em;
+  padding-right: 0em;
+  border-top: 0.1em solid  rgba(204, 204, 204, 0.5);
+  background-color: #a5b4fc;
+  padding-bottom: 0em;
+}
+
+h1 {
+ font-size: 1.5em;
+ color: #a5b4fc;
+ font-family: 'Montserrat', sans-serif;
+ 
+}
+
+h2 {
+  font-size: 1.5em;
+  color: #8599ff;
+  font-family: 'Montserrat', sans-serif;
+  padding-top: 3em;
+  padding-bottom: 2em; 
+ }
+
+h3 {
+  font-size: 1.1em;
+  color :rgb(75, 72, 72);
+  padding-bottom: 1em;
+  padding-top: 2em;
+
+} 
+
+header {
+  border-bottom: 0.1em solid  rgba(204, 204, 204, 0.5);
+  padding-bottom: 1em;
+  padding-left: 0em;
+  padding-right: 0em;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 1000;
+  background-color: rgb(17, 160, 255);
+
+}
+
+.logo-corp{
+  width: 6cm;
+  height: auto;
+  padding-bottom: 4em;
+  padding-top: 4em;
+  display: block; /* Convertit l'image en élément de bloc */
+  margin-left: auto; /* Centre l'image horizontalement */
+  margin-right: auto; /* Centre l'image horizontalement */
+}
+
+.grid1 {
+  padding-top: 1em;
+}
+
+.img_service{
+  width: 1.5cm;
+  height: auto;
+  padding-left: 2em;
+  padding-right: 1em;
+  padding-top: 0.5em;
+  border-radius: 50% 50% 51% 49% / 51% 52% 48% 49% ;
+  
+  
+}
+
+.logo-entreprise{
+  width: 3cm;
+  height: auto;
+  padding-left: 2em;
+  padding-right: 1em;
+  padding-top: 0.5em;
+  border-radius: 50% 50% 51% 49% / 51% 52% 48% 49% ;
+  
+  
+}
+
+
+.entete2{
+  text-align: center;
+  padding-bottom: 2em;
+}
+
+
+a:hover {
+  text-decoration: underline;
+}
+
+a {
+  color: #8599ff;
+  text-decoration: none;
+}
+
+p,
+li {
+font-size: 1em;
+color: #413d3d;
+font-family: 'Montserrat', sans-serif;
+padding-bottom: 1em;
+}
+
+nav {
+  padding: 1em;
+  
+}
+
+.navEntete {
+  padding: 1em;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.nav2 {
+  padding: 0.1em;
+  display: flex;
+  flex-direction: row;
+  
+}
+
+.box {
+  height: 5em;
+ 
+  grid-column-start: 1;
+  grid-column-end: 4;
+  border-bottom: 0.1em solid  rgba(204, 204, 204, 0.5);
+  border-top: 0.1em solid  rgba(204, 204, 204, 0.5);
+  border-left: 0.1em solid  rgba(204, 204, 204, 0.5);
+  border-right: 0.1em solid  rgba(204, 204, 204, 0.5);
+}
+
+.conteneur {
+  display: grid;
+  grid-template-columns: 10em;
+  padding-top: 2em;
+}
+
+nav.sousNav a{
+  color: #000000;
+  text-decoration: none;
+  flex-direction: row;
+}
